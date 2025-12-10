@@ -1,0 +1,65 @@
+body {
+font-family: Arial, sans-serif;
+ text-align: center;
+background: #ffffff;
+padding: 20px;
+}
+
+#suggestions {
+margin-bottom: 20px;
+font-size: 18px;
+font-weight: bold;
+}
+
+.color-item {
+display: inline-block;
+padding: 8px 12px;
+margin: 5px;
+border-radius: 6px;
+color: white;
+font-weight: bold;
+}
+
+#gameContainer {
+display: none;
+}
+
+#word {
+font-size: 48px;
+margin: 20px;
+font-weight: bold;
+}
+
+#answerBox {
+font-size: 22px;
+margin-top: 5px;
+display: none;
+font-weight: bold;
+}
+
+button {
+padding: 12px 20px;
+margin: 10px;
+font-size: 18px;
+cursor: pointer;
+border: none;
+background: #222;
+color: white;
+border-radius: 6px;
+}
+
+button:hover {
+background: #444;
+}
+footer {
+width: 100%;
+text-align: center;
+padding: 10px 0;
+background: #222;
+color: white;
+font-size: 12px;
+font-weight: bold;
+position: fixed;
+bottom: 0;
+left: 0;
+}
