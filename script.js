@@ -5,7 +5,7 @@ const colors = [
   "yellow",
   "purple",
   "black",
-  "white",
+  "grey",
   "violet",
   "pink",
   "orange",
@@ -19,7 +19,7 @@ const colorHex = {
   yellow: "#b5a900",
   purple: "#800080",
   black: "#000000",
-  white: "#a8a8a8",
+  grey: "#808080",
   violet: "#9400d3",
   pink: "#ff1493",
   orange: "#ff8c00",
@@ -76,3 +76,4 @@ startBtn.addEventListener("click", () => {
   gameContainer.style.display = "block";
   generateQuestion();
 });
+
